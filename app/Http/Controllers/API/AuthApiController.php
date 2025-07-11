@@ -1,12 +1,12 @@
 <?php
-namespace App\Http\Controllers\API\Auth;
+namespace App\Http\Controllers\API;
 
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class AuthController extends Controller
+class AuthApiController extends Controller
 {
     public function register(Request $request)
     {
